@@ -640,9 +640,35 @@ h1 {
     .storebackground{
         height: fit-content;
       }
+
+    .contact {
+        padding: 20px;
+    }
+
+    .contactclass h2 {
+        font-size: 28px;
+    }
+
+    .contactclass p {
+        font-size: 16px;
+    }
+
+    .contactinfo, .contactform {
+        width: 90%;
+    }
+
+    .inputbox input, .inputbox textarea {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+
     .footer {
         font-size: 14px;
     }
+
 }
 
 @media (max-width: 500px) {
@@ -717,6 +743,65 @@ h1 {
     .sales .card {
         width: 100%;
     }
+
+        .contact {
+            padding: 20px;
+            text-align: center;
+        }
+    
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .contactinfo, .contactform {
+            width: 90%;
+        }
+    
+        .contactclass h2 {
+            font-size: 24px;
+        }
+    
+        .contactclass p {
+            font-size: 14px;
+            text-align: center;
+        }
+    
+        .box {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .icon {
+            margin-bottom: 10px;
+        }
+    
+        .text {
+            margin-left: 0;
+            
+        }
+        .text p {
+            display: block;
+            text-align: center;
+            max-width: 90%;
+        }
+    
+        .contactform {
+            padding: 20px;
+        }
+    
+        .inputbox input, .inputbox textarea {
+            font-size: 14px;
+        }
+    
+        button {
+            width: 100%;
+            font-size: 16px;
+            padding: 10px;
+        }
+    
+    
   .footer{
     font-size: 12px;
     padding: 10px;
@@ -728,5 +813,37 @@ h1 {
 @media (min-width: 769px) {
     .menu-toggle {
         display: none;
+    }
+}
+
+@media (max-width: 580px) {
+    .contactclass h2
+    {
+        font-size: 24px;
+    }
+
+    .contactclass p,
+    .text p {
+        font-size: 14px;
+    }
+    .text h3{
+       font-size:  20px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+    .icon{
+    font-size: 18px; 
+    width: 20px;
+    height: 30px; 
+    align-items: center;
+    }
+    .icon img {
+        width: 20px;
+        height: 20px;
+    }
+    .inputbox input, .inputbox textarea {
+        font-size: 14px;
     }
 }
