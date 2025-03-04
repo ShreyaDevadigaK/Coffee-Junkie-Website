@@ -93,12 +93,13 @@ display: flex;
   transform: translate(40px,40px);
 }
 .content{
-    width:35%;
+    width:60%;
+    height: 90vh;
     color: white;
 }
 .content h2{
     color: rgb(139, 84, 6);
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     
 }
@@ -119,6 +120,7 @@ display: flex;
     color: #4a2c2a; /* Deep brown text for a coffee feel */
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
     box-shadow: 20px 10px 10px rgba(27, 17, 1, 0.775);
     border-radius: 10px;
     padding: 20px;
@@ -608,10 +610,10 @@ h1 {
         font-size: 2.5rem;
     }
     .content h2 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .content p{
-        font-size: 12px;
+        font-size:15px;
     }
     .image img {
         width: 90%;
@@ -660,23 +662,18 @@ h1 {
         font-size: 1rem;
         padding: 12px;
     }
-    .middle{
-        padding: 15px;
+    .content h1 {
+        font-size: 2.5rem;
     }
     .content{
-        width: 95%;
-        text-align: center;
-    }
-    
-    .content h1 {
-        font-size: 1.8rem;
+        width: fit-content;
+        height: 50px;
     }
     .content h2 {
         font-size: 1.2rem;
     }
     .content p{
-        font-size: 13px;
-        padding: 10px;
+        font-size: 15px;
     }
     .image {
         width: 850px; 
@@ -732,28 +729,4 @@ h1 {
     .menu-toggle {
         display: none;
     }
-}
-@media (max-width: 1025px) {
-    .image img {
-        width: 20%;
-    }
-    .logo {
-        text-align: center;
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .logo img {
-        display: block;
-        margin: 0 auto;
-    }
-    .content h1 {
-        font-size: 2rem;
-    }
-    .content h2 {
-        font-size: 1.5rem;
-    }
-    .content p{
-        font-size: 12px;
-    }
-
 }
