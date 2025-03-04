@@ -572,6 +572,7 @@ h1 {
     .logo img {
         display: block;
         margin: 0 auto;
+        text-align: center;
     }
     .menu-toggle {
         display: block;
@@ -614,7 +615,7 @@ h1 {
         font-size: 12px;
     }
     .image img {
-        width: 70%;
+        width: 90%;
     }
     .searchbar input {
         width: 200px;
