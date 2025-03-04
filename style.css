@@ -691,16 +691,24 @@ h1 {
     }
     .content h1 {
         font-size: 2.5rem;
+        text-align: center;
+        
     }
     .content{
         width: fit-content;
-        height: 50px;
+        height: 900vh;
+        text-align: center;
+        margin-left: 30px;
+        
     }
     .content h2 {
         font-size: 1.2rem;
     }
     .content p{
         font-size: 15px;
+       text-align: justify;
+       padding: 20px;
+        
     }
     .image {
         width: 250px; 
@@ -807,10 +815,9 @@ h1 {
             font-size: 16px;
             padding: 10px;
         }
-    
-    
+      
   .footer{
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px;
   }
     
