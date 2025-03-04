@@ -154,6 +154,7 @@ width: 300px;
 display: flex;
 flex-direction:column;
 text-align:center;
+align-items: center;
 padding: 20px;
 /* max-width: 30%; */
 justify-content: space-between; 
@@ -167,11 +168,9 @@ transition: box-shadow 0.3s ease;
 }
 
 .col img{
-    width: 200px; 
-    height: 200px; 
-    object-fit: cover; 
-    display: block;
-    margin-left: 40px;
+    width: 100%; 
+    height: auto; 
+    
      
 }
 .col p{
@@ -679,18 +678,28 @@ h1 {
         font-size: 13px;
         padding: 10px;
     }
-    .image img{
-        width: 100%;
-        max-width: 300px;
-    }
+    .image {
+        width: 850px; 
+        height: 850px; 
+      }
+      
+      .image img {
+        width: 100%; 
+        height: auto;
+      }
 
     .col {
         width: 100%;
         max-width: 320px;
     }
+    
+    .col h2{
+        font-size: 20px;
+    }
+    
     .details-button{
-        font-size: 12px;
-        padding: 6px 12px;
+        font-size: 16px;
+        padding: 12px 12px;
     }
     
     .storeheader h1{
