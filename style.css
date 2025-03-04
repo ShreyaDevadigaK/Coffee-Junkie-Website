@@ -644,37 +644,61 @@ h1 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     .nav-container {
         padding: 10px;
     }
-    .logo {
+    .menu-toggle{
+        font-size: 1.4rem;
+        padding:12px;
+    }
+    .nav-container ul{
+        width: 100%;
+        padding: 10px 0;
         text-align: center;
     }
+    .links a{
+        font-size: 1rem;
+        padding: 12px;
+    }
+    .middle{
+        padding: 15px;
+    }
+    .content{
+        width: 95%;
+        text-align: center;
+    }
+    
     .content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .content h2 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .content p{
-        font-size: 10px;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .image img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .col {
+        width: 100%;
+        max-width: 320px;
+    }
+    .details-button{
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+    
+    .storeheader h1{
+        font-size: 24px;
     }
     .searchbar input {
         width: 150px;
-    }
-    .storeheader h1 {
-        font-size: 28px;
-    }
-    
-    .col {
-        width: 100%;
-    }
-    .contactform {
-        width: 90%;
-    }
-    .image img {
-        width: 70%;
+        font-size: 14px;
     }
     .sales {
         width: 100%;
@@ -687,8 +711,9 @@ h1 {
     .sales .card {
         width: 100%;
     }
-  .storebackground{
-    height: fit-content;
+  .footer{
+    font-size: 12px;
+    padding: 10px;
   }
     
 }
