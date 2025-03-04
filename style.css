@@ -96,6 +96,7 @@ display: flex;
     width:60%;
     height: 90vh;
     color: white;
+    margin-left: 50px;
 }
 .content h2{
     color: rgb(139, 84, 6);
