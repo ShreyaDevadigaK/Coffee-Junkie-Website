@@ -707,7 +707,7 @@ h1 {
       }
       
       .image img {
-        width: 100%; 
+        width: 50%; 
         height: auto;
       }
 
@@ -731,6 +731,9 @@ h1 {
     .searchbar input {
         width: 150px;
         font-size: 14px;
+    }
+    .searchbar button{
+        width: 80px;
     }
     .sales {
         width: 100%;
