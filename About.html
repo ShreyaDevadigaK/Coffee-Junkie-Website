@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>About Page</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+            <img src="/images/cup.png" alt="Cup">
+        </div>
+
+    <div class="menu-toggle">☰ Menu</div>
+
+    <div class="links">
+    <ul>
+        <li data-aos="fade-up" data-aos-duration="'1200"><a href="index.html">Home</a></li>
+        <li class="active" data-aos-duration="'1200" data-aos-delay="100"><a href="About.html">About</a></li>
+        <li  data-aos="fade-up" data-aos-duration="'1200" data-aos-delay="200"><a href="num.html">Explore</a></li>
+        <li data-aos="fade-up" data-aos-duration="'1200" data-aos-delay="300"><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+
+    <div class="middle">
+        
+        <div class="image">   
+        <img src="/images/background.png" data-aos="zoom-in-left" data-aos-duration="3000" id="logo" alt="coffee beans" width="100%"><br>
+        </div>
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-duration="'1200" data-aos delay="400">About Us</h2>
+            <p>Welcome to Coffee Junkie, your go-to destination for premium coffee sourced from the world’s finest coffee-growing regions. We are passionate about delivering high-quality, freshly roasted coffee beans and blends that cater to every coffee lover’s taste.
+
+                Our journey began with a simple mission—to bring ethically sourced, sustainably grown, and expertly roasted coffee straight to your cup. We work closely with farmers, ensuring fair trade practices and the best quality beans while supporting sustainable agriculture.
+                
+                Whether you're a casual coffee drinker or a connoisseur, we offer a curated selection of single-origin, espresso, and specialty blends to elevate your coffee experience. At Coffee Junkie, freshness is our priority—we roast our beans in small batches and deliver them directly to you for the perfect brew every time.
+                
+                Join us in celebrating the art of coffee, one cup at a time. </p>
+        </div>
+    </div>
+    
+
+    </header>
+    <div class="footer">
+        <p>copyright&copy;2025</p>
+        
+        <a href="About.html" style="color: white;">Back to Top</a>
+       
+    </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const navMenu = document.querySelector(".nav-container ul");
+    
+            menuToggle.addEventListener("click", function() {
+                navMenu.classList.toggle("show");
+            });
+        });
+    </script>
+    
+</body>
+</html>

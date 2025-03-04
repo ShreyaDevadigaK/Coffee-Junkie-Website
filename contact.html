@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    
+       
+    <section class="contact">
+        <div class="contactclass">
+        <h2>Contact Us</h2><br>
+        <p>Have questions or need assistance? Contact us—we're here to help!</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box">
+                    <div class="icon"><i class="material-icons">place</i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>4671,Sugar Camp Road,<br>Karnataka India,<br>59843</p>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="icon"><i class="material-icons">phone</i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>467-864-032</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="material-icons">email</i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>cofeejunkie@hmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactform">
+                <form action="https://formspree.io/f/xbldneag"
+                id="contact-form"
+                onsubmit=submitForm(event)
+                method="POST">
+                    <h2>Send Message</h2>
+                    <div class="inputbox">
+                    <input type="text"  name="name" id="name" required>
+                    <span>Full Name</span>
+                    </div>
+
+                    <div class="inputbox">
+                    <input type="email"  name="email" id="email" required>
+                    <span>Email</span>
+                    </div>
+
+                    <div class="inputbox">
+                        <textarea  name="description" id="description" required></textarea>
+                        <span>Type your message</span>
+                    </div>
+    
+                    <div class="inputbox">
+                    <button type="submit" >Send</button>
+                    </div>       
+            </div>
+        </div>
+    
+    </section>
+    
+
+    <div class="footer">
+        <p>copyright&copy;2025</p>
+        <a href="index.html" style="color: white;">Back</a>  
+    </div> 
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+<script src="Integrate.js">
+
+</script>
+</body>
+</html>

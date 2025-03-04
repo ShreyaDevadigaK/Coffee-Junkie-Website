@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Numbers Page</title>
+</head>
+<body>
+    <div class="upper">
+        <nav>
+            <div class="nav-container">
+                <div class="logo">
+                <img src="/images/cup.png" alt="Cup">
+            </div>
+        
+        <div class="menu-toggle">☰ Menu</div>
+
+        <div class="links">
+        <ul>
+            <li data-aos="fade-up" data-aos-duration="'1200"><a href="index.html">Home</a></li>
+            <li data-aos="fade-up" data-aos-duration="'1200" data-aos-delay="100"><a href="About.html">About</a></li>
+            <li class="active" data-aos="fade-up" data-aos-duration="'1200" data-aos-delay="200"><a href="num.html">Explore</a></li>
+            <li data-aos="fade-up" data-aos-duration="'1200" data-aos-delay="300"><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        </div>
+        </nav>
+    </div>
+    
+
+    <section class="num">
+    <div class="storeheader">
+    <h1 >Our Stores</h1><br>
+    <form class="searchbar" action="https://www.google.com/search?q" method="get">
+        <input type="text" name="q" value="" placeholder="Search stores...">
+        <button><i class="material-icons">search</i></button>
+    </div>
+    </div>
+    <section class="storebackground">
+        <div class="sales" data-aos="zoom-in" data-aos-duration="1500" data-aos delay="500">
+            <h1>Store Sales Overview</h1>
+            <div class="cards">
+                <div class="card">
+                    <h2>City</h2>
+                    <p>Chicago</p>
+                    <p>New York</p>
+                    <p>London</p>
+                    <img src="/images/city-removebg-preview.png" alt="City Icon">
+                </div>
+                <div class="card">
+                    <h2>Orders</h2>
+                    <p>125</p>
+                    <p>160</p>
+                    <p>500</p>
+                    <img src="/images/order-removebg-preview.png" alt="estimation">
+                </div>
+                <div class="card">
+                    <h2>Profits</h2>
+                    <p>$12,500</p>  
+                    <p>$32,500</p>  
+                    <p>$72,500</p> 
+                    <img src="/images/profit.png" alt="estimation">   
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    <div class="footer">
+        <p>copyright&copy;2025</p>
+        <a href="#logo" style="color: white;">Back to Top</a>  
+    </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const menuToggle = document.querySelector(".menu-toggle");
+        const navMenu = document.querySelector(".nav-container ul");
+
+        menuToggle.addEventListener("click", function() {
+            navMenu.classList.toggle("show");
+        });
+    });
+</script>
+
+
+</body>
+</html>
