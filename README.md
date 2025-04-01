@@ -31,15 +31,6 @@ Coffee-Junkie-Website/
 │-- images/          # Image assets (ensure to add images before deploying)
 ```
 
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ShreyaDevadigaK/Coffee-Junkie-Website.git
-   ```
-2. Navigate into the project folder:
-   ```bash
-   cd Coffee-Junkie-Website
-   ```
-3. Open `index.html` in your browser to preview the website.
+
 
 
