@@ -3,6 +3,10 @@
 ## Description
 Coffee Junkie is a stylish and responsive website for a coffee business. The site provides information about the brand, an interactive contact form, and details on different coffee blends. It includes multiple pages, a custom design, and interactive elements.
 
+## Demo
+
+[Live Demo](https://shreyadevadigak.github.io/Coffee-Junkie-Website/)
+
 ## Features
 - Responsive navigation bar
 - Animated page transitions (AOS library)
